@@ -1,0 +1,144 @@
+
+html{
+    background-color: #3F8F8B ;
+}
+
+body{
+
+    background-color:#193752;
+    font-family: 'Work Sans', sans-serif;
+    margin: 100px;
+    padding: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
+}
+
+ul li{
+    color: #f3f3f3;
+}
+
+
+h1{
+    color:#f3f3f3;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+P{
+    color: #f3f3f3;
+}
+
+#portfolio{
+
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7;
+ 
+}
+
+.portfolio-post1{
+
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.portfolio-post2{
+
+   display: flex;
+    
+}
+
+
+
+
+
+/* classes page */
+
+
+#classes-h2{
+
+    color:#3F8F8B;
+    text-align: center;
+}
+
+#class-h2-ul{
+    color:#3F8F8B;
+
+}
+
+#msu-logo{
+
+    width: 300px;
+    float: right;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+
+
+/* main nav */
+
+nav{
+    list-style-type:none;
+	text-align:center;
+    
+    
+}
+
+nav li{
+    display:inline-block;
+    float: inherit;
+    padding: 20px 20px;
+    font-size: 21px;
+    
+}
+
+
+#main-nav ul li a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover{
+     color: #3F8F8B;
+     
+
+}
+
+
+img{
+
+    width: 100%;
+}
+
+
+
+
+
+.footer{
+
+text-align: center;
+margin-top: 50px;
+
+}
+
+
+.contacts li{
+
+width: 35px;
+display: inline-block;
+align-items: center;
+padding: 20px 10px;
+
+
+}
+
+.contacts li a img:hover {
+
+    opacity: .5;
+    transition: opacity ease-in-out .2s;
+}
