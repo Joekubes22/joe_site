@@ -51,6 +51,13 @@ P{
     
 }
 
+.portfolio-post3{
+
+    display: flex;
+    border-bottom: 2px solid #f3f3f3;
+
+}
+
 
 
 
@@ -78,6 +85,36 @@ P{
 }
 
 
+/* home page */
+
+#self-portrait{
+
+    width: 300px;
+    padding: 10px 10px;
+    margin-right: 25px;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+#web-dev{
+    width: 450px;
+    float: left;
+    padding: 10px 10px;
+    margin-right: 25px;
+  
+
+}
+
+#div1{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+#div2{
+    padding-right: 10px;
+    margin-right: 10px;
+}
 
 
 /* main nav */
@@ -121,8 +158,9 @@ img{
 
 .footer{
 
-margin-left: 350px;
-margin-top: 50px;
+position:sticky;
+margin-left: 360px;
+margin-top: 75px;
 
 }
 
@@ -142,3 +180,93 @@ padding: 20px 10px;
     opacity: .5;
     transition: opacity ease-in-out .2s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-screen-width: 600px) {
+   
+   
+   html{
+      background: none;
+   }
+   
+   
+   
+    body {
+        width: 400px;
+    }
+
+  
+
+    h1 {
+        font-size: 140%;
+    }
+
+    #portfolio {
+        float: none;
+        width: 100%;
+    }
+
+    nav {
+        float:none;
+        width: auto;
+    }
+
+    img{
+
+        width: fit-content;
+
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+   
+    html{
+       background: none;
+    }
+    
+    
+    
+     body {
+         width: 400px;
+     }
+ 
+   
+ 
+     h1 {
+         font-size: 140%;
+     }
+ 
+     #portfolio {
+         float: none;
+         width: 100%;
+     }
+ 
+     nav {
+         float:none;
+         width: auto;
+     }
+ 
+     img{
+ 
+         width: fit-content;
+ 
+     }
+ }
+
+
+
+
