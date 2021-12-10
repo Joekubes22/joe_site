@@ -71,7 +71,17 @@ P{
     text-align: center;
 }
 
-#class-h2-ul{
+.class-h2-ul{
+    color:#3F8F8B;
+
+}
+
+#class-h2-ul2{
+    color:#3F8F8B;
+
+}
+
+#class-h2-ul2{
     color:#3F8F8B;
 
 }
@@ -112,6 +122,11 @@ P{
 }
 
 #div2{
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#div3{
     padding-right: 10px;
     margin-right: 10px;
 }
